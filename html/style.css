@@ -1,0 +1,49 @@
+.gallery {
+  margin: auto;
+  display: grid;
+  grid-gap: 60px;
+  grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+  max-width: 500px;
+}
+
+
+.homelinks {
+  color: white;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  width: 99%;
+  position: absolute; /* or absolute */
+  top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: LightGray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
